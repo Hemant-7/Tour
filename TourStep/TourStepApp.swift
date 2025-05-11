@@ -11,7 +11,7 @@ import SwiftUI
 struct TourStepApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TourDemoView()
         }
     }
 }
