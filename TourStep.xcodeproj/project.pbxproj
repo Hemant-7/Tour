@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4165B3832DD25344004BC3CD /* Instructions in Frameworks */ = {isa = PBXBuildFile; productRef = 4165B3822DD25344004BC3CD /* Instructions */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4165B3472DCE7A9C004BC3CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4165B3832DD25344004BC3CD /* Instructions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = TourStep;
 			packageProductDependencies = (
+				4165B3822DD25344004BC3CD /* Instructions */,
 			);
 			productName = TourStep;
 			productReference = 4165B3392DCE7A9A004BC3CD /* TourStep.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 4165B3302DCE7A9A004BC3CD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4165B37E2DD252EA004BC3CD /* XCRemoteSwiftPackageReference "Instructions" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4165B33A2DCE7A9A004BC3CD /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4165B37E2DD252EA004BC3CD /* XCRemoteSwiftPackageReference "Instructions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ephread/Instructions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4165B3822DD25344004BC3CD /* Instructions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4165B37E2DD252EA004BC3CD /* XCRemoteSwiftPackageReference "Instructions" */;
+			productName = Instructions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4165B3312DCE7A9A004BC3CD /* Project object */;
 }
